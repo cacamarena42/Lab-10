@@ -1,3 +1,8 @@
+/*
+	Cesar Camarena
+	
+	Lab 10
+*/
 #if !defined (SLDL_H)
 #define SLDL_H
 
@@ -86,14 +91,14 @@ T* SortedListDoublyLinked<T>::remove(DoubleNode<T>* curr)
    
    after = curr->getNext();
    
-   if(prev)
+   if(prev == NULL)
    {
 	   prev->setNext(after);
 	   
 	   loc = prev;
    }
    
-   if(after)
+   if(after == NULL)
    {
 	   after->setPrev(prev);
 	   

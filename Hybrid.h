@@ -1,3 +1,8 @@
+/*
+	Cesar Camarena
+	
+	Lab 10
+*/
 #if !defined (HYBRID_H)
 #define HYBRID_H
 
@@ -47,7 +52,7 @@ Hybrid<T>::~Hybrid()
 template < class T >
 bool Hybrid<T>::isEmpty()
 {
-	return q->isEmpty();
+	return q->size();
 }
 
 /* EASY METHOD
