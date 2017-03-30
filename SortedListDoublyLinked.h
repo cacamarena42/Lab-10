@@ -1,6 +1,6 @@
 /*
 	Cesar Camarena
-	
+	Jig Patel
 	Lab 10
 */
 #if !defined (SLDL_H)
